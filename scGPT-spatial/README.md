@@ -15,7 +15,7 @@ rather than one script per dataset.
 | `run_cell_annotation.py` | Supervised cell type annotation | ATAA, HS, BMMC, SEAAD | Fig 4, Table 4 |
 | `run_perturbation.py` | Perturbation prediction | adamson, norman, replogle | Fig 6, Table 5 |
 | `run_deg_concordance.py` | Marker-gene concordance | ATAA, HS, BMMC, BC, Emb | Fig 5, Fig S2 |
-| `plot_results.py` | Figure regeneration from saved bundles | any | — |
+
 
 ## Layout
 
@@ -27,8 +27,7 @@ benchmark/
     clustering.py        Leiden sweep, ARI/NMI/silhouette, result serialisation
     continual.py         2-epoch masked-value-completion adaptation
     annotation_data.py   train/test split loading and harmonisation
-  run_*.py               one script per task
-  plot_results.py/                  
+  run_*.py               one script per task         
 ```
 
 ## Datasets
