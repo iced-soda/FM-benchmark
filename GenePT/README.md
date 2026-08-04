@@ -1,6 +1,6 @@
 # GenePT-w Downstream Tasks
 
-This repo contains code adapted from [GenePT](https://github.com/yiqunchen/GenePT) for three downstream single-cell analysis tasks built on **GPT-3.5-derived gene embeddings**: zero-shot clustering, cell type annotation, and perturbation response prediction.
+This folder contains code adapted from [GenePT](https://github.com/yiqunchen/GenePT) for three downstream single-cell analysis tasks built on **GPT-3.5-derived gene embeddings**: zero-shot clustering, cell type annotation, and perturbation response prediction.
 
 GenePT represents each gene by embedding its textual description (e.g., from NCBI) with GPT-3.5, then represents each cell (`GenePT-w`) as the expression-weighted average of its genes' embeddings. These cell embeddings are used here as a drop-in representation for standard scRNA-seq analysis tasks.
 
